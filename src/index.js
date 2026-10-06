@@ -276,7 +276,7 @@ io.on("connection", socket => {
   });
 });
 
-const PORT = process.env.PORT || 4000;
+const PORT = "mafia-bot-telegram-beck.vercel.app" || 4000;
 server.listen(PORT, () => {
   console.log(`Mafia server running on ${PORT}`);
 });
